@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # Load the input image in grayscale
-image = cv2.imread("C:/Users/fix 4/Desktop/i6.webp", 0)
+image = cv2.imread("file path", 0)
 
 # Setup SimpleBlobDetector parameters.
 params = cv2.SimpleBlobDetector_Params()
@@ -36,4 +36,4 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 # Save result
-cv2.imwrite("C:/Users/fix 4/Desktop/i7.jpg", img_with_blobs)
+cv2.imwrite("file path.jpg", img_with_blobs)
