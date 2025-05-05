@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 # Load the input image in grayscale
-image = cv2.imread("file path", 0)
+image = cv2.imread("image path", 0)
 
 # Setup SimpleBlobDetector parameters.
 params = cv2.SimpleBlobDetector_Params()
